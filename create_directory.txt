@@ -1,0 +1,8 @@
+Creating a directory in HDFS :
+
+-- Creating a single directory in single instance
+hdfs dfs -mkdir -p /learning
+
+-- Creating multiple directories in single instance
+hdfs dfs -mkdir -p /hello /hello/one /hello/two /hello/three
+

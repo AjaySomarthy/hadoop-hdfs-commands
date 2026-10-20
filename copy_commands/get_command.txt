@@ -1,0 +1,6 @@
+-- Downloading a file from HDFS to local
+hdfs dfs -get /demo/file2.txt ~/
+
+-- Downloading a file from HDFS to local with renaming file
+hdfs dfs -get /demo/file2.txt ~/file3.txt
+

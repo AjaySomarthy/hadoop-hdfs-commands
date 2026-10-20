@@ -1,0 +1,4 @@
+-- Moving a file from one HDFS location to another HDFS location
+
+hdfs dfs -mv /demo/one/file2.txt /demo/two/
+

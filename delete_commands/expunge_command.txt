@@ -1,0 +1,7 @@
+-- Removing expired trash checkpoints and creates a checkpoint for current trash contents 
+hdfs dfs -expunge
+
+
+-- Immediately deletes Trash contents and checkpoints, regardless of the configured retention interval
+hdfs dfs -expunge -immediate
+

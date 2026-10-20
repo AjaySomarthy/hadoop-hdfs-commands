@@ -1,0 +1,4 @@
+-- Restore deleted file
+
+hdfs dfs -mv /user/ajaykumar/.Trash/Current /demo
+

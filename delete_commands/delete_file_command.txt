@@ -1,16 +1,13 @@
 Deleting files in HDFS directory :
 
--- Deleting a single file :
--- To delete a single file in a directory
-hdfs dfs -rm -r /demo/file1.txt
+-- To delete a single file
+hdfs dfs -rm /demo/file1.txt
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
--- Deleting multiple files :
-
 -- To delete multiple required files
-hdfs dfs -rm -r /demo/file2.txt /demo/file3.txt /demo/file4.txt
+hdfs dfs -rm /demo/file2.txt /demo/file3.txt /demo/file4.txt
 
 -- To delete all the files in a directory
-hdfs dfs -rm -r /demo/*
+hdfs dfs -rm /demo/*
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 -- For forceful deletion, to avoid any error messages
 hdfs dfs -rm -f /demo/file5.txt

@@ -1,0 +1,14 @@
+Creating a file in HDFS directory :
+
+-- To create an empty file
+hdfs dfs -touchz /learning/school_students.txt
+
+-- To create multiple empty files
+hdfs dfs -touchz /hello/one/file1.txt /hello/two/file2.txt /hello/three/file3.txt
+
+
+-- To create a file with content
+hdfs dfs -put - /learning/school_teachers.txt
+
+Enter your content.
+Enter then Ctrl+D for saving and exit

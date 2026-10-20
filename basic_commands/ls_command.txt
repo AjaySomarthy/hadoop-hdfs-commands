@@ -1,0 +1,13 @@
+Listing :
+
+hdfs dfs -ls /
+Listing all the directories and files in HDFS root directory (not sub-directories)
+
+hdfs dfs -ls /learning
+Listing all the directories and files in learning directory (not sub-directories)
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+hdfs dfs -ls -h /
+Listing all the directories and files in HDFS root directory with their sizes in human-readable units (not sub-directories)
+
+hdfs dfs -ls -h /learning
+Listing all the directories and files in learning with their sizes in human-readable units (not sub-directories)

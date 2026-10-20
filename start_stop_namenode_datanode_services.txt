@@ -43,3 +43,8 @@ you can see like below :
 Now, you are in hadoop area
 You can start with your hadoop HDFS commands
 
+
+NameNode Web Interface :
+
+http://localhost:9870
+

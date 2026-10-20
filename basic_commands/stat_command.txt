@@ -1,0 +1,24 @@
+-- Displays metadata about an HDFS file or directory, such as its name, size, type, modification time, and replication factor.
+
+-- Displays the name of a file
+hdfs dfs -stat %n /demo/file1.txt
+
+-- Displays the size of a file
+hdfs dfs -stat %b /demo/file1.txt
+
+-- Displays replication factor of a file
+hdfs dfs -stat %r /demo/file1.txt
+
+-- Displays the modification time of a file
+hdfs dfs -stat %y /demo/file1.txt
+
+-- Displays the file type
+hdfs dfs -stat %F /demo/file1.txt
+
+-- Displays the HDFS block size
+hdfs dfs -stat %o /demo/file1.txt
+
+
+-- All in one command
+hdfs dfs -stat "%n %b %r %y %F %o" /demo/file1.txt
+

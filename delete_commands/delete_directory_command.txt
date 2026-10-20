@@ -1,0 +1,14 @@
+Deleting a directory in HDFS :
+
+-- To delete a single directory along with its subdirectories and files
+hdfs dfs -rm -r /learning
+
+-- To delete a directory forcefully by avoiding any error messages such as path or directory is not existed, then use -f flag
+hdfs dfs -rm -r -f /learning/demo
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-- To delete multiple required directories
+hdfs dfs -rm -r /hello/one /hello/two /hello/three
+
+-- To delete all the subdirectories and files in a directory
+hdfs dfs -rm -r /hello/*
+

@@ -1,0 +1,61 @@
+-- check whether a file or directory is exist or not
+-- 0 means true (existed) and 1 means false (not existed)
+
+hdfs dfs -test -e /demo/file1.txt
+echo $?
+
+o/p : 0
+
+hdfs dfs -test -e /demo/file2.txt
+echo $?
+
+o/p : 1
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-- check whether the path is a directory or not
+
+hdfs dfs -test -d /demo
+echo $?
+
+o/p : 0
+
+hdfs dfs -test -d /demo/file1.txt
+echo $?
+
+o/p : 1
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-- check whether the path is a file or not
+
+hdfs dfs -test -f /demo
+echo $?
+
+o/p : 1
+
+hdfs dfs -test -f /demo/file1.txt
+echo $?
+
+o/p : 0
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-- check whether the file has greater than zero size or not
+
+hdfs dfs -test -s /demo/file1.txt
+echo $?
+
+o/p : 0
+
+hdfs dfs -test -s /demo/file2.txt
+echo $?
+
+o/p : 1
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-- check whether the file has zero size or not
+
+hdfs dfs -test -z /demo/file1.txt
+echo $?
+
+o/p : 1
+
+hdfs dfs -test -s /demo/file2.txt
+echo $?
+
+o/p : 0
+

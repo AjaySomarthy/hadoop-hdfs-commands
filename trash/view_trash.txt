@@ -1,0 +1,5 @@
+-- Viewing trash
+
+-- Display the deleted files (In Trash)
+hdfs dfs -ls -R /user/ajaykumar/.Trash/Current
+

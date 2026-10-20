@@ -1,0 +1,8 @@
+Recursive Listing :
+
+hdfs dfs -ls -R /
+Listing all the directories, sub-directories, and files in the HDFS root directory
+
+hdfs dfs -ls -R /learning
+Listing all the directories, sub-directories, and files in learning
+

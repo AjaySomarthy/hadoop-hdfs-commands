@@ -1,0 +1,6 @@
+-- Uploading a file from local to HDFS
+hdfs dfs -put file1.txt /demo/
+
+-- Uploading a file from local to HDFS with renaming file
+hdfs dfs -put file1.txt /demo/file2.txt
+

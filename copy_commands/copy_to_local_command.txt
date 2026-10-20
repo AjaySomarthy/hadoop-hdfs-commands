@@ -1,0 +1,9 @@
+-- Copying a file from HDFS to local
+hdfs dfs -copyToLocal /demo/file1.txt ~/alpha/
+
+-- Overwrite an existing file
+hdfs dfs -copyToLocal /demo/file1.txt ~/alpha/file1.txt
+
+-- copying a file from HDFS to local and renaming it
+hdfs dfs -copyToLocal /demo/file1.txt ~/alpha/file2.txt
+

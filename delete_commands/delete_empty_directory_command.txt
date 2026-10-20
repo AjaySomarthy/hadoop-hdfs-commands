@@ -1,0 +1,9 @@
+-- Removing an empty directory
+hdfs dfs -rmdir /demo1
+
+-- If you try -rmdir on non-empty files, you will get an error
+hdfs dfs -rmdir /demo2
+
+error message :
+rmdir: `/demo1': Directory is not empty
+

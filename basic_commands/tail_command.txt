@@ -1,0 +1,4 @@
+-- Display the last 1kb of a file
+
+hdfs dfs -tail /demo/file1.txt
+

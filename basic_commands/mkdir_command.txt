@@ -1,0 +1,13 @@
+Creating a directory in HDFS :
+
+-- Creating a single directory
+hdfs dfs -mkdir /demo
+
+
+-- This will throw an error as "one" folder is not existed
+hdfs dfs -mkdir /demo/one/students
+
+
+-- Creating multiple directories
+hdfs dfs -mkdir /hello /hello/one /hello/two /hello/three
+

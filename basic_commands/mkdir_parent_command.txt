@@ -1,0 +1,13 @@
+Creating a directory in HDFS :
+
+-- Creating a single directory
+hdfs dfs -mkdir -p /demo
+
+
+-- This will create a "one" folder and create "students" in it
+hdfs dfs -mkdir -p /demo/one/students
+
+
+-- Creating multiple directories
+hdfs dfs -mkdir -p /demo/two /demo/three /demo/four
+

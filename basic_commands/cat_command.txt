@@ -1,0 +1,4 @@
+-- Displaying the content in a file
+
+hdfs dfs -cat /demo/first_file.txt
+

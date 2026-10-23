@@ -1,0 +1,8 @@
+-- Merging all the files in a HDFS directory to local file
+
+-- this will add all the content from different files into a single line
+hdfs dfs -getmerge /demo/ ~/alpha/merged_files.txt
+
+-- this adds a new line after each content from a file
+hdfs dfs -getmerge -nl /demo/ ~/alpha/merged_files1.txt
+

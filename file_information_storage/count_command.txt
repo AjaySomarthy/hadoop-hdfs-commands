@@ -1,0 +1,15 @@
+-- Displays the number of directories, files, bytes under this demo and displays its path
+hadoop fs -count /demo
+
+-- Displays the number of directories, files, bytes under this file1.txt and displays its path
+hadoop fs -count /demo/file1.txt
+
+-- here the size will be in human readable format
+hadoop fs -count -h /demo/file1.txt
+
+-- here displays with a header to know what each column is
+hadoop fs -count -v /demo/file1.txt
+
+-- Displays quota info along with counts
+hadoop fs -count -q /demo/file1.txt
+

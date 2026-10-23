@@ -1,0 +1,6 @@
+-- Moving a file from local to HDFS
+hdfs dfs -moveFromLocal ~/alpha/file1.txt /demo/
+
+-- Moving a file from local to HDFS and renaming it
+hdfs dfs -moveFromLocal ~/alpha/file2.txt /demo/file3.txt
+

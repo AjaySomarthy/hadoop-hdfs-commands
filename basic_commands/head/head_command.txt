@@ -1,0 +1,17 @@
+-- Display the first 1kb of a file
+hdfs dfs -head /demo/file1.txt
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-- Displays all the lines except last 1 line
+hadoop fs -cat /demo/file1.txt | head -n -1
+
+-- Displays all the lines except the last 2 lines
+hadoop fs -cat /demo/file1.txt | head -n -2
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-- Generally displays the first 1 file or subdirectory of a directory
+-- But the first line is "Found 4 items" so it displays it
+hadoop fs -ls /demo/ | head -1
+
+-- Generally displays the first 2 files or subdirectories of a directory
+-- But the first line is "Found 4 items" so it display it and the first file
+hadoop fs -ls /demo/ | head -2
+

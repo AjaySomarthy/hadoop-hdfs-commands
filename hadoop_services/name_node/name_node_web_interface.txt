@@ -1,0 +1,4 @@
+NameNode Web Interface :
+
+http://localhost:9870
+

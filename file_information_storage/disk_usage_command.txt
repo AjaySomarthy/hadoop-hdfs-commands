@@ -1,0 +1,18 @@
+-- displays the disk usage of demo directory
+hadoop fs -du /demo
+
+-- displays the disk usage of file1.txt file
+hadoop fs -du /demo/file1.txt
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-- displays the disk usage of demo directory in human readable format
+hadoop fs -du -h /demo
+
+-- displays the disk usage of file1.txt file in human readable format
+hadoop fs -du -h /demo/file1.txt
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-- displays the combined disk usage of demo directory
+hadoop fs -du -s /demo
+
+-- displays the combined disk usage of demo directory in human readable format
+hadoop fs -du -s -h /demo
+

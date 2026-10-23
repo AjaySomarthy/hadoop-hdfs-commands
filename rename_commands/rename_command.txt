@@ -1,4 +1,0 @@
--- Renaming a file
-
-hdfs dfs -mv /demo/one/file1.txt /demo/one/file3.txt
-

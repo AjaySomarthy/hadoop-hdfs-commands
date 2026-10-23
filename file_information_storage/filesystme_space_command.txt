@@ -1,0 +1,9 @@
+-- displays the free and used space of the file system
+hadoop fs -df
+
+-- displays the free and used space of the file system in human readable format
+hadoop fs -df -h
+
+-- for a specifi directory
+hadoop fs -df -h /demo
+

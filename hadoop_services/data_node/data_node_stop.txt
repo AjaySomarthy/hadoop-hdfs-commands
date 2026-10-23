@@ -1,0 +1,3 @@
+-- Stopping hadoop datanode service
+hdfs --daemon stop datanode
+

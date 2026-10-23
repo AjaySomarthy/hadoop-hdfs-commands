@@ -1,4 +1,3 @@
 -- Copying a file from one HDFS location to another HDFS location
-
 hdfs dfs -cp /demo/one/file1.txt /demo/two/
 

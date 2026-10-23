@@ -1,0 +1,6 @@
+-- checksum information of a file
+hadoop fs -checksum /demo/file1.txt
+
+-- checksum info of multiple files
+hadoop fs -checksum /demo/file1.txt /demo/file2.txt /demo/file3.txt
+

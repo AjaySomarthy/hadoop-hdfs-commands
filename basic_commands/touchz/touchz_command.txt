@@ -12,3 +12,4 @@ hdfs dfs -put - /learning/school_teachers.txt
 
 Enter your content.
 Enter then Ctrl+D for saving and exit
+

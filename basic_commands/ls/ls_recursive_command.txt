@@ -1,8 +1,10 @@
 Recursive Listing :
 
 hdfs dfs -ls -R /
+hadoop fs -ls -R /
 Listing all the directories, sub-directories, and files in the HDFS root directory
 
 hdfs dfs -ls -R /learning
+Hadoop fs -ls -R /learning
 Listing all the directories, sub-directories, and files in learning
 

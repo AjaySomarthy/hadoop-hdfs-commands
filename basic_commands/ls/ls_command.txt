@@ -1,13 +1,25 @@
 Listing :
 
 hdfs dfs -ls /
+   (or)
+hadoop fs -ls /
 Listing all the directories and files in HDFS root directory (not sub-directories)
 
 hdfs dfs -ls /learning
+    (or)
+hadoop fs -ls /learning
 Listing all the directories and files in learning directory (not sub-directories)
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 hdfs dfs -ls -h /
+hadoop fs -ls -h /
 Listing all the directories and files in HDFS root directory with their sizes in human-readable units (not sub-directories)
 
 hdfs dfs -ls -h /learning
+hadoop fs -ls -h /learning
 Listing all the directories and files in learning with their sizes in human-readable units (not sub-directories)
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+We can either use :
+hdfs dfs 
+   (or)
+hadoop fs
+

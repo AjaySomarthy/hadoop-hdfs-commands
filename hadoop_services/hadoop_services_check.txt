@@ -1,0 +1,3 @@
+-- Checking how many hadoop services are active now
+jps
+

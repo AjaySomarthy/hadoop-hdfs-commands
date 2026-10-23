@@ -1,0 +1,6 @@
+-- Deleting a folder permanently
+hdfs dfs -rm -r -skipTrash /demo/one
+
+-- Deleting a file permanently
+hdfs dfs -rm -skipTrash /demo/one/file1.txt
+
